@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      type="image/png"
+      sizes="16x16"
+      rel="icon"
+      href="assets/img/favicon.png"
+    />
+    <title>Twitter</title>
+  </head>
+  <body>
+    <div class="container">
+      <header><h1>Twitter Tweets</h1></header>
+    </div>
+    <section class="tweet-section">
+      <div class="card">
+        <div class="sub-card">
+          <div class="img-container">
+            <img src="assets/img/avatar.png" alt="" srcset="" />
+          </div>
+          <form id="form">
+            <textarea
+              name=""
+              id="tweet"
+              cols="30"
+              rows="3"
+              placeholder="Write Here"
+            ></textarea>
+          </form>
+        </div>
+        <div class="btn-container">
+          <input class="btn-tweet" id="btnTweet" type="submit" value="Tweet" />
+        </div>
+      </div>
+    </section>
+    <section class="list-tweets-section">
+      <h2>My Tweets</h2>
+      <div class="list-tweets" id="listTweets"></div>
+    </section>
+  </body>
+  <script src="js/app.js"></script>
+</html>
